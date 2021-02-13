@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+
+.situations {
+  list-style-type: none;
+  width: 100%;
+}
+
+.situations li {
+  display: inline-block;
+  font-size: 1.2em;
+  color: white;
+  background-color: red;
+  border: 1px solid black;
+  padding: 0.5em;
+  width: 20%;
+}
+
+.position {
+  display: inline-block;
+  width: 20%;
+  opacity: 0;
+}
+
+.position li {
+  display: block;
+  width: auto;
+}
+
+li.vs-3bet {
+  margin-right: 20%;
+}
